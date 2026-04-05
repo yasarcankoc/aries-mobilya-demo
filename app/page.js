@@ -99,7 +99,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 3. ÖNE ÇIKAN ÜRÜNLER */}
+      {/* 3. ÖNE ÇIKAN ÜRÜNLER (Vitrin) */}
       <section className="container mx-auto px-8 pb-20">
         <div className="flex flex-col md:flex-row justify-between items-end mb-12 border-b border-gray-200 pb-6">
           <div>
@@ -110,16 +110,11 @@ export default function Home() {
               Müşterilerimizin en çok tercih ettiği ikonik tasarımlar.
             </p>
           </div>
-          <Link
-            href="/kategoriler"
-            className="hidden md:flex items-center gap-2 text-blue-600 font-bold hover:text-blue-800 transition-colors"
-          >
-            Tümünü Gör <span>&rarr;</span>
-          </Link>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          {products.map((product) => (
+          {/* SİHİR BURADA: products yerine products.slice(0, 6) yazıyoruz! */}
+          {products.slice(0, 6).map((product) => (
             <Link
               href={`/urun/${product.slug}`}
               key={product.id}
@@ -151,6 +146,29 @@ export default function Home() {
             </Link>
           ))}
         </div>
+
+        {/* YENİ EKLENEN ŞIK "TÜMÜNÜ GÖR" BUTONU */}
+        <div className="mt-16 text-center">
+          <Link
+            href="/kategoriler"
+            className="inline-flex items-center justify-center gap-3 bg-white border-2 border-gray-900 text-gray-900 px-10 py-4 rounded-xl font-bold text-lg hover:bg-gray-900 hover:text-white transition-all duration-300 shadow-sm hover:shadow-2xl transform hover:-translate-y-1"
+          >
+            Tüm Koleksiyonu İncele
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              ></path>
+            </svg>
+          </Link>
+        </div>
       </section>
 
       {/* YENİ EKLENEN BÖLÜMLER AŞAĞIDADIR */}
@@ -171,7 +189,7 @@ export default function Home() {
             {/* Büyük Sol Blok */}
             <Link
               href="/kategoriler?kategori=Yatak Odası"
-              className="relative h-[800px] md:h-[750px] group overflow-hidden rounded-3xl shadow-lg"
+              className="relative h-[500px] md:h-[750px] group overflow-hidden rounded-3xl shadow-lg"
             >
               <Image
                 src="/images/yatakodasi.jpg"
