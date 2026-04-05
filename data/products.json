@@ -1,0 +1,110 @@
+[
+  {
+    "id": "1",
+    "slug": "luna-ceviz-kitaplik-ve-alt-modul",
+    "name": "Luna Ceviz Kitaplık ve Alt Modül",
+    "category": "Salon & Oturma Odası",
+    "description": "Doğal ceviz kaplama detayları, dekoratif LED aydınlatmalı rafları ve geniş saklama alanına sahip alt dolapları ile hem şık hem fonksiyonel bir çalışma alanı çözümü.",
+    "price": "45.000 TL",
+    "image": "/images/vitrin.jpg"
+  },
+  {
+    "id": "2",
+    "slug": "modern-surgulu-cam-kapakli-gardirop",
+    "name": "Modern Sürgülü Cam Kapaklı Gardırop",
+    "category": "Yatak Odası",
+    "description": "İç aydınlatmalı sensörlü LED sistemleri ve füme cam kapak tasarımıyla yatak odanıza derinlik katar. Geniş iç hacmi ve estetik görünümü bir arada sunar.",
+    "price": "18.500 TL",
+    "image": "/images/dolap.jpg"
+  },
+  {
+    "id": "3",
+    "slug": "beyaz-country-mutfak-dolabi-takimi",
+    "name": "Beyaz Country Mutfak Dolabı Takımı",
+    "category": "Mutfak",
+    "description": "Lake boya kaplama, klasik kulp detayları ve geniş tezgah alanı ile ferah bir mutfak deneyimi. Dayanıklı malzeme ve estetik işçiliğin buluştuğu özel tasarım.",
+    "price": "62.000 TL",
+    "image": "/images/mutfak.jpg"
+  },
+  {
+    "id": "4",
+    "slug": "loft-ceviz-ledli-elbise-dolabi",
+    "name": "Loft Ceviz LED'li Elbise Dolabı",
+    "category": "Yatak Odası",
+    "description": "Şeffaf kapak tasarımı ve dikey LED aydınlatmalarıyla kıyafetlerinizi sergileyen modern bir dokunuş. Doğal dokusuyla sıcak bir atmosfer yaratır.",
+    "price": "75.000 TL",
+    "image": "/images/dolap2.jpg"
+  },
+    {
+    "id": "5",
+    "slug": "mermer-desenli-oval-yemek-masasi-seti",
+    "name": "Mermer Desenli Oval Yemek Masası Seti",
+    "category": "Yemek Masası",
+    "description": "Şık mermer desenli üst tabla ve ergonomik kadife sandalyelerle kombinlenmiş, 6 kişilik konforlu yemek alanı. Modern ayak yapısıyla minimalist bir tasarım.",
+    "price": "50.000 TL",
+    "image": "/images/yemekmasasi3.jpg"
+  },
+    {
+    "id": "6",
+    "slug": "minimalist-yuvarlak-yemek-masasi",
+    "name": "Minimalist Yuvarlak Yemek Masası",
+    "category": "Yemek Masası",
+    "description": "Küçük alanlar için ideal, modern sütun ayaklı yuvarlak masa. Hem yemek masası hem de şık bir çalışma/toplantı köşesi olarak kullanılabilir.",
+    "price": "75.000 TL",
+    "image": "/images/yemekmasasi2.jpg"
+  },
+    {
+    "id": "7",
+    "slug": "yemek-masasi-seti",
+    "name": "Yemek Masası Seti",
+    "category": "Yemek Masası",
+    "description": "Beyaz dairesel tabla ve siyah tasarım ayaklı masa, hazeran detaylı şık sandalyelerle kombinlenmiştir. Kompakt yapısı sayesinde hem mutfak hem de yemek odaları için ideal, modern bir tercihtir.",
+    "price": "75.000 TL",
+    "image": "/images/yemekmasasi1.jpg"
+  },
+  {
+    "id": "8",
+    "slug": "antrasit-loft-banyo-dolabi-ve-dus-seti",
+    "name": "Antrasit Loft Banyo Dolabı ve Duş Seti",
+    "category": "Banyo",
+    "description": "Füme camlı siyah profilli duş kabini, tezgah üstü çanak lavabo ve LED aydınlatmalı ayna seti. Modern antrasit tonları ve mermer görünümlü duvar seramikleriyle tam bir bütünlük sağlar.",
+    "price": "75.000 TL",
+    "image": "/images/banyo.jpg"
+  },
+  {
+    "id": "9",
+    "slug": "minimalist-mese-detayli-banyo-konsolu",
+    "name": "Minimalist Meşe Detaylı Banyo Konsolu",
+    "category": "Banyo",
+    "description": "Ahşap dokulu tezgah, geniş çekmeceli alt modül ve dairesel LED aydınlatmalı ayna. Ferah ve aydınlık bir banyo atmosferi arayanlar için özel tasarım.",
+    "price": "75.000 TL",
+    "image": "/images/banyo2.jpg"
+  },
+  {
+    "id": "10",
+    "slug": "modern-dore-boy-aynali-antre-konsolu",
+    "name": "Modern Dore Boy Aynalı Antre Konsolu",
+    "category": "Antre & Hol / Mobilya",
+    "description": "Tavana kadar uzanan geniş boy aynası ve asma dresuar ünitesi. Giriş alanlarına derinlik katan, minimalist ve fonksiyonel bir karşılama alanı çözümü.",
+    "price": "75.000 TL",
+    "image": "/images/aynadolap1.jpg"
+  },
+   {
+    "id": "11",
+    "slug": "lake-mutfak-ve-kiler-dolabi-unitesi",
+    "name": "Lake Mutfak ve Kiler Dolabı Ünitesi",
+    "category": "Mutfak",
+    "description": "Gri lake kapaklar, tezgah üstü aydınlatma ve buzlu cam detaylı üst modüller. Mutfak gereçleriniz için geniş depolama alanı ve şık bir hazırlık köşesi sunar.",
+    "price": "75.000 TL",
+    "image": "/images/mutfakdolap.jpg"
+  },
+   {
+    "id": "12",
+    "slug": "isikli-teshr-vitrini-ve-dekoratif-konsol",
+    "name": "Işıklı Teşhir Vitrini ve Dekoratif Konsol",
+    "category": "Salon & Oturma Odası",
+    "description": "LED iç aydınlatmalı camlı sergileme rafları ve minimalist alt konsol. Değerli objeleriniz veya içecek koleksiyonlarınız için zarif bir sergileme alanı.",
+    "price": "75.000 TL",
+    "image": "/images/vitrin2.jpg"
+  }
+]
