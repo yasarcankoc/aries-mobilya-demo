@@ -7,7 +7,7 @@ export default function Footer() {
         {/* Marka ve Açıklama */}
         <div>
           <h3 className="text-3xl font-black text-white mb-6 tracking-tighter">
-            MO<span className="text-blue-500">BİLYA</span>
+            aries<span className="text-blue-500">design</span>
           </h3>
           <p className="text-sm leading-relaxed text-gray-400">
             Modern yaşam alanları için özenle tasarlanmış, yüksek kaliteli
